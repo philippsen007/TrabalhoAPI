@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Site direcionado à pesquisas sobre times de futebol.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Bruno Bernardo Cardoso Philippsen">
+    <meta name="keywords" content="esportes, futebol, estádios, times de futebol">
+    <script src="https://kit.fontawesome.com/6336b7bda1.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Football Insights</title>
+</head>
+<body>
+    <div class="main">
+        <header>
+            <h1>Football Insights</h1>
+        </header>
+        <div class="searchitens">
+            <input type="text" id="searchInput" placeholder="Digite o nome de um time de futebol">
+            <button onclick="searchTeam()"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button>
+        </div>
+        <div class="generaldisplay">
+            <div class="teamspecs">
+                <h2>INFORMAÇÕES DO CLUBE</h2>
+                <hr>
+                <br>
+                <div id="logo" class="esp-team"></div>
+                <br>
+                <div id="name" class="esp-team"></div>
+                <div id="code" class="esp-team"></div>
+                <br>
+                <div id="country" class="esp-team"></div>
+                <br>
+                <div id="founded" class="esp-team"></div>
+            </div>
+            <div class="venueinfo">
+                <h2>ESTÁDIO</h2>
+                <hr>
+                <br>
+                <div class="exibition-venue">
+                    <div id="venueimg" class="esp-venue"></div>
+                    <br>
+                    <div id="venuename" class="esp-venue"></div>
+                    <br>
+                    <div id="address" class="esp-venue"></div>
+                    <br>
+                    <div id="city" class="esp-venue"></div>
+                    <br>
+                    <div id="capacity" class="esp-venue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div id="footercontent">
+            <div id="social">
+                <a href="https://www.instagram.com/brunnerbcp/" class="footerlinks" id="instagram">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+
+                <a href="https://www.facebook.com/?locale=pt_BR" class="footerlinks" id="facebook">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+
+                <a href="https://twitter.com/?lang=pt-br" class="footerlinks" id="twitter">
+                    <i class="fa-brands fa-x-twitter"></i>
+                </a>
+
+                <a href="https://github.com/philippsen007" class="footerlinks" id="github">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+        <hr>
+        <div id="copyright">
+            &#169
+            2023 todos os direitos reservados à Bruno Bernardo Cardoso Philippsen e <a href="https://api-sports.io/"><strong>API Sports</strong></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
